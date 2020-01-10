@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Variables!</title>
+    <link rel="stylesheet" href="../base.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Variables!</title>
-  <link rel="stylesheet" href="../base.css">
-</head>
+  <body>
+    <script>
+      // function scoped
+      // var variables are function scoped, also typically not used anymore.  Try to stick to let and const
+      const first = "wes";
 
-<body>
-  <script>
-    // function scoped
-    var first = 'wes';
-    // block scoped
-    let age = 300;
-    let cool = true;
+      // block scoped
+      const age = 300;
+      const cool = true;
 
-    const Dog = 'bowser';
+      const Dog = "bowser";
 
-    // camel case
-    const iLovePizza = true;
-    // UpperCamelCase
-    const ILoveToEatHotDogs = false;
-    // snake case!!
-    const this_is_snake_case = 'cool';
+      if (age > 10) {
+        console.log("You are old!  LOL!");
+      }
 
-
-
-  </script>
-</body>
-
+      // camel case
+      const iLovePizza = true;
+      // UpperCamelCase
+      const ILoveToEatHotDogs = false;
+      // snake case!!
+      // eslint-disable-next-line camelcase
+      const this_is_snake_case = "cool";
+    </script>
+  </body>
 </html>

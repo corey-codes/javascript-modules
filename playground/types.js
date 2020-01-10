@@ -1,5 +1,60 @@
 /* eslint-disable */
+
+const name = "wes";
+const middle = "topher";
+const last = "bos";
+
+const sentence = `She's so cool`;
+
+const song = `Ohhh
+
+ya
+
+I like
+pizza`;
+
+const hello = 'hello my name is ' + name + ". Nice to meet you";
+
+let hello2 = 'hello my name is ';
+hello2 = hello2 + name;
+hello2 = hello2 + ' Nice to meet you';
+
+const a = 10;
+const b = 20;
+
+const smarties = 20;
+const kids = 3; 
+const eachKidGets = Math.floor(smarties / kids);
+const dadGets = smarties % kids;
+console.log(`Each kid gets ${eachKidGets}`);
+console.log(`Dad gets ${dadGets}`);
+
+
+
+// OBJECTS
+
+const person = {
+  first: 'Corey',
+  last: 'Derouin',
+  age: 37,
+}
+console.log(person);
+console.log(person.first);
+console.log(person.last);
+console.log(person.age);
+
+// BOOLEANS 
+
+let isDrawing = false;
+age = 18;
+age = 100;
+const ofAge = age > 19;
+console.log(ofAge);
+
+
 /*
+
+
 const name = 'wes';
 const middle = "topher";
 const last = `bos`;
@@ -79,10 +134,10 @@ teller.last = null;
 
 */
 
-let isDrawing = false;
-let age = 18;
-const ofAge = age > 19;
-console.log(ofAge);
+// let isDrawing = false;
+// let age = 18;
+// const ofAge = age > 19;
+// console.log(ofAge);
 
-age = 100;
-let age2 = 100;
+// age = 100;
+// let age2 = 100;
